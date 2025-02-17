@@ -8,7 +8,7 @@ import AdminDashboard from './components/Dashboard/AdminDashboard'
     <>
     {/* <Login /> */}
     {/* <EmployeeDashboard /> */}
-    <AdminDashboard />
+    {/* <AdminDashboard /> */}
     </>
   )
 }
