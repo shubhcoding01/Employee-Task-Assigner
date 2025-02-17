@@ -171,5 +171,6 @@ const employees = [
   };
 
   export const getLocalStorage = () => {
-    // return JSON.parse(localStorage.getItem('employees'));
+    const data = localStorage.getItem('employees');
+    console.log(JSON.parse(data));
   };
