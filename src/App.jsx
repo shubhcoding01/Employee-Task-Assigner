@@ -15,7 +15,7 @@ import { getLocalStorage, setLocalStorage } from './utils/localStorage'
 
   const [user, setUser] = useState(null)
   
-  const handelLogin = (email,password) => {
+  const handleLogin = (email,password) => {
     // console.log(email,password)
     if(email == 'admin12@mail.com' && password == '123'){
       console.log("This is Admin")
@@ -32,7 +32,7 @@ import { getLocalStorage, setLocalStorage } from './utils/localStorage'
 
   return (
     <>
-    {!user ? <Login /> :''}
+    {!user ? <Login handleLogin={handleLogin}/> :''}
     {/* <Login /> */}
     {/* <EmployeeDashboard /> */}
     {/* <AdminDashboard /> */}
