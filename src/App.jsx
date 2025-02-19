@@ -20,6 +20,10 @@ import { getLocalStorage, setLocalStorage } from './utils/localStorage'
     if(email == 'admin12@mail.com' && password == '123'){
       console.log("This is Admin")
   }
+  else if(email == 'user12@mail.com' && password =='123')
+  {
+    console.log("This is User")
+  }
   else{
     alert("Invalid Email or Password")
   }
