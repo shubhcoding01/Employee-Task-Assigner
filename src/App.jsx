@@ -19,13 +19,13 @@ import { getLocalStorage, setLocalStorage } from './utils/localStorage'
     // console.log(email,password)
     if(email == 'admin12@mail.com' && password == '123'){
       setUser('admin')
-      console.log(user)
+      // console.log(user)
       // console.log("This is Admin")
   }
   else if(email == 'user12@mail.com' && password =='123')
   {
     setUser('employee')
-    console.log(user)
+    // console.log(user)
     // console.log("This is User")
   }
   else{
