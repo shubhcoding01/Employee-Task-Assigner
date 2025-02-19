@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
-export const Login = (props) => {
+export const Login = (handleLogin) => {
 
-    console.log(props)
+    console.log(handleLogin)
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
