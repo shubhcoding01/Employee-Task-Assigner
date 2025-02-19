@@ -28,7 +28,7 @@ import { getLocalStorage, setLocalStorage } from './utils/localStorage'
     alert("Invalid Email or Password")
   }
   }
-  handelLogin("user12@mail.com",123)
+  // handelLogin("user12@mail.com",123)
 
   return (
     <>
