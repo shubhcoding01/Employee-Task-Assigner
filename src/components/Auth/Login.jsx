@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export const Login = (handleLogin) => {
+export const Login = ({handleLogin}) => {
 
     console.log(handleLogin)
     const [email, setEmail] = useState('')
