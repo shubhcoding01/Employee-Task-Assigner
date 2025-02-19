@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Login from './components/Auth/Login'
 import EmployeeDashboard from './components/Dashboard/EmployeeDashboard'
 import AdminDashboard from './components/Dashboard/AdminDashboard'
 import { getLocalStorage, setLocalStorage } from './utils/localStorage'
+import { AuthContext } from './context/AuthProvider'
 
  const App = () => {
 
@@ -33,6 +34,8 @@ import { getLocalStorage, setLocalStorage } from './utils/localStorage'
   }
   }
   // handelLogin("user12@mail.com",123)
+
+  const data = useContext(AuthContext)
 
   return (
     <>
