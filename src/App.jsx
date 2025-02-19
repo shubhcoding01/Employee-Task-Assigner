@@ -37,6 +37,7 @@ import { getLocalStorage, setLocalStorage } from './utils/localStorage'
   return (
     <>
     {!user ? <Login handleLogin={handleLogin}/> :''}
+    {user == 'admin' ? <AdminDashboard /> : <EmployeeDashboard />}
     {/* <Login /> */}
     {/* <EmployeeDashboard /> */}
     {/* <AdminDashboard /> */}
