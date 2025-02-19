@@ -36,6 +36,7 @@ import { AuthContext } from './context/AuthProvider'
   // handelLogin("user12@mail.com",123)
 
   const data = useContext(AuthContext)
+  console.log(data)
 
   return (
     <>
