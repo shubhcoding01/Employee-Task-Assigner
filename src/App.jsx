@@ -25,7 +25,7 @@ import { AuthContext } from './context/AuthProvider'
       // console.log(user)
       // console.log("This is Admin")
   }
-  else if(email == 'user12@mail.com' && password =='123')
+  else if(authData && authData.employees.find((e) => email == e.email && e.password == password))
   {
     
     setUser('employee')
