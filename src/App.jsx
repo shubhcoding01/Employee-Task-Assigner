@@ -15,7 +15,8 @@ import { AuthContext } from './context/AuthProvider'
   // }, [])
 
   const [user, setUser] = useState(null)
-  
+  const authData = useContext(AuthContext);
+    console.log(authData.employees)
   const handleLogin = (email,password) => {
     // console.log(email,password)
     if(email == 'admin12@mail.com' && password == '123'){
@@ -25,6 +26,7 @@ import { AuthContext } from './context/AuthProvider'
   }
   else if(email == 'user12@mail.com' && password =='123')
   {
+    
     setUser('employee')
     // console.log(user)
     // console.log("This is User")
@@ -35,8 +37,7 @@ import { AuthContext } from './context/AuthProvider'
   }
   // handelLogin("user12@mail.com",123)
 
-  const data = useContext(AuthContext);
-  console.log(data)
+  
 
   return (
     <>
