@@ -9,8 +9,8 @@ const AuthProvider = ({children}) => {
   const [userData, setuserData] = useState(null)
 
   useEffect(() => {
-    const {employee,admin} = getLocalStorage()
-    setuserData({employee,admin})
+    const {employees,admin} = getLocalStorage()
+    setuserData({employees,admin})
   
     
   }, [])
