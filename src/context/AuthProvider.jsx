@@ -1,4 +1,5 @@
 import React, { createContext, useState } from 'react'
+import { getLocalStorage } from '../utils/localStorage'
 
 
 export const AuthContext = createContext() 
@@ -6,6 +7,9 @@ export const AuthContext = createContext()
 const AuthProvider = ({children}) => {
 
   const [userData, setuserData] = useState(null)
+
+  const data = getLocalStorage()
+  
 
   return (
     <div>
