@@ -9,7 +9,7 @@ const AuthProvider = ({children}) => {
   const [userData, setuserData] = useState(null)
 
   const data = getLocalStorage()
-  console.log(data)
+  console.log(data.employeesData)
 
 
   return (
