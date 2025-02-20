@@ -16,7 +16,7 @@ import { AuthContext } from './context/AuthProvider'
 
   const [user, setUser] = useState(null)
   const authData = useContext(AuthContext);
-    console.log(authData)
+    // console.log(authData)
 
   const handleLogin = (email,password) => {
     // console.log(email,password)
