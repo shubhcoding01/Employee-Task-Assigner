@@ -18,6 +18,16 @@ import { AuthContext } from './context/AuthProvider'
   const authData = useContext(AuthContext);
     // console.log(authData)
 
+    useEffect(() => {
+      
+    if(authData)
+    {
+      const loggedInUser = localStorage.getItem('loggedInUser')
+    }
+      
+    }, [authData])
+    
+
   const handleLogin = (email,password) => {
     // console.log(email,password)
     if(email == 'admin12@mail.com' && password == '123'){
