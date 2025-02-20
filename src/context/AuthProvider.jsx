@@ -9,7 +9,8 @@ const AuthProvider = ({children}) => {
   const [userData, setuserData] = useState(null)
 
   const data = getLocalStorage()
-  
+  console.log(data)
+
 
   return (
     <div>
