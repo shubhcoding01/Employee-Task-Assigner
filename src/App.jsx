@@ -32,7 +32,7 @@ import { AuthContext } from './context/AuthProvider'
     // console.log(email,password)
     if(email == 'admin12@mail.com' && password == '123'){
       setUser('admin')
-      localStorage.setItem('loggedInUser',JSON.stringify({role:admin}))
+      localStorage.setItem('loggedInUser',JSON.stringify({role:'admin'}))
       // console.log(user)
       // console.log("This is Admin")
   }
@@ -40,6 +40,7 @@ import { AuthContext } from './context/AuthProvider'
   {
     
     setUser('employee')
+    localStorage.setItem('loggedInUser',JSON.stringify({role:'employee'}))
     // console.log(user)
     // console.log("This is User")
   }
