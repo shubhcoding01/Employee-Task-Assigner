@@ -41,11 +41,15 @@ import { AuthContext } from './context/AuthProvider'
       // console.log(user)
       // console.log("This is Admin")
   }
-  else if(authData && authData.employees.find((e) => email == e.email && e.password == password))
+  else if(authData )
   {
-    
-    setUser('employee')
+    const employee = authData.employees.find((e) => email == e.email && e.password == password)
+    if(employee)
+    {
+      setUser('employee')
     localStorage.setItem('loggedInUser',JSON.stringify({role:'employee'}))
+    }
+    
     // console.log(user)
     // console.log("This is User")
   }
