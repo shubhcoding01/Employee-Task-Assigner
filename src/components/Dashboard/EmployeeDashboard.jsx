@@ -7,10 +7,10 @@ const EmployeeDashboard = ({data}) => {
   // console.log(data)
   return (
     <div className='p-10 bg-[#1C1C1C] h-screen'>
-      <h1>{data.id}</h1>
-      <Header />
-      <NumberOfTask />
-      <ListTask />
+      {/* <h1>{data.id}</h1> */}
+      <Header data={data}/>
+      <NumberOfTask data={data}/>
+      <ListTask data={data}/>
     </div>
   )
 }
