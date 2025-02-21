@@ -47,6 +47,7 @@ import { AuthContext } from './context/AuthProvider'
     if(employee)
     {
       setUser('employee')
+      setLoggedInUserData(employee)
       localStorage.setItem('loggedInUser',JSON.stringify({role:'employee'}))
     }
     
