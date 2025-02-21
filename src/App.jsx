@@ -15,6 +15,7 @@ import { AuthContext } from './context/AuthProvider'
   // }, [])
 
   const [user, setUser] = useState(null)
+  const [loggedInUserData, setLoggedInUserData] = useState(null)
   const authData = useContext(AuthContext);
     // console.log(authData)
 
