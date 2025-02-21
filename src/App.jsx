@@ -18,18 +18,18 @@ import { AuthContext } from './context/AuthProvider'
   const authData = useContext(AuthContext);
     // console.log(authData)
 
-    useEffect(() => {
+    // useEffect(() => {
       
-    if(authData)
-    {
-      const loggedInUser = localStorage.getItem('loggedInUser')
-      if(loggedInUser)
-      {
-        setUser(loggedInUser.role)
-      }
-    }
+    // if(authData)
+    // {
+    //   const loggedInUser = localStorage.getItem('loggedInUser')
+    //   if(loggedInUser)
+    //   {
+    //     setUser(loggedInUser.role)
+    //   }
+    // }
       
-    }, [authData])
+    // }, [authData])
     
 
   const handleLogin = (email,password) => {
