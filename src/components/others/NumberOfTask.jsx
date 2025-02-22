@@ -19,7 +19,7 @@ const NumberOfTask = ({data}) => {
             </div>
 
             <div  className='bg-yellow-200 py-6 px-9 rounded-xl w-[45%]'>
-                    <h2 className='text-3xl font-semibold text-black'>0</h2>
+                    <h2 className='text-3xl font-semibold text-black'>{data.task_numbers.failed}</h2>
                     <h3 className='text-xl font-medium text-black'>Failed Task</h3>
             </div>
     </div>
