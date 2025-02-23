@@ -22,6 +22,10 @@ const ListTask = ({data}) => {
         {
           return <CompleteTask />
         }
+        if(elem.failed)
+        {
+          return <FailedTask />
+        }
       })}
       {/* <AcceptTask /> */}
         {/* <div className='flex-shrink-0 h-full w-[300px] p-5 bg-red-300 rounded-xl'>
