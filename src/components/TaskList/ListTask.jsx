@@ -10,7 +10,10 @@ const ListTask = ({data}) => {
     <div id='listtask' className='overflow-x-auto mt-7 h-[55%] w-full py-5 flex justify-start items-center gap-5 flex-nowrap'>
       {data.tasks.map((elem)=>{
 
-        console.log(elem)
+        if(elem.active)
+        {
+          <AcceptTask />
+        }
       })}
       {/* <AcceptTask /> */}
         {/* <div className='flex-shrink-0 h-full w-[300px] p-5 bg-red-300 rounded-xl'>
