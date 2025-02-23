@@ -8,7 +8,7 @@ const ListTask = ({data}) => {
   console.log(data)
   return (
     <div id='listtask' className='overflow-x-auto mt-7 h-[55%] w-full py-5 flex justify-start items-center gap-5 flex-nowrap'>
-      <AcceptTask />
+      {/* <AcceptTask /> */}
         {/* <div className='flex-shrink-0 h-full w-[300px] p-5 bg-red-300 rounded-xl'>
           <div className='flex justify-between items-center'>
             <h3 className='bg-red-500 rounded px-3 py-1 text-black text-sm'>High</h3>
@@ -18,7 +18,7 @@ const ListTask = ({data}) => {
           <p className='mt-2 text-sm text-blue-800'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
             Quae enim blanditiis id, perferendis aspernatur voluptatum?</p>
         </div> */}
-      <NewTask />  
+      {/* <NewTask />   */}
         {/* <div className='flex-shrink-0 h-full w-[300px] p-5 bg-yellow-300 rounded-xl'>
         <div className='flex justify-between items-center'>
             <h3 className='bg-red-500 rounded px-3 py-1 text-black text-sm'>High</h3>
@@ -28,7 +28,7 @@ const ListTask = ({data}) => {
           <p className='mt-2 text-sm text-blue-800'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
             Quae enim blanditiis id, perferendis aspernatur voluptatum?</p>
         </div> */}
-      <CompleteTask />  
+      {/* <CompleteTask />   */}
         {/* <div className='flex-shrink-0 h-full w-[300px] p-5 bg-green-300 rounded-xl'>
         <div className='flex justify-between items-center'>
             <h3 className='bg-red-500 rounded px-3 py-1 text-black text-sm'>High</h3>
@@ -38,7 +38,7 @@ const ListTask = ({data}) => {
           <p className='mt-2 text-sm text-blue-800'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
             Quae enim blanditiis id, perferendis aspernatur voluptatum?</p>
         </div> */}
-      <FailedTask />
+      {/* <FailedTask /> */}
         {/* <div className='flex-shrink-0 h-full w-[300px] p-5 bg-blue-300 rounded-xl'>
         <div className='flex justify-between items-center'>
             <h3 className='bg-red-500 rounded px-3 py-1 text-black text-sm'>High</h3>
@@ -48,7 +48,7 @@ const ListTask = ({data}) => {
           <p className='mt-2 text-sm text-blue-800'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
             Quae enim blanditiis id, perferendis aspernatur voluptatum?</p>
         </div> */}
-        <div className='flex-shrink-0 h-full w-[300px] p-5 bg-red-300 rounded-xl'>
+        {/* <div className='flex-shrink-0 h-full w-[300px] p-5 bg-red-300 rounded-xl'>
         <div className='flex justify-between items-center'>
             <h3 className='bg-red-500 rounded px-3 py-1 text-black text-sm'>High</h3>
             <h4 className='text-black font-bold'>14Feb 2025</h4>
@@ -57,7 +57,7 @@ const ListTask = ({data}) => {
           <p className='mt-2 text-sm text-blue-800'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
             Quae enim blanditiis id, perferendis aspernatur voluptatum?</p>
         </div>
-        <div className='flex-shrink-0 h-full w-[300px] p-5 bg-yellow-300 rounded-xl'>
+        <div className='flex-shrink-0 h-full w-[300px] p-5 bg-yellow-300 rounded-xl'> */}
         <div className='flex justify-between items-center'>
             <h3 className='bg-red-500 rounded px-3 py-1 text-black text-sm'>High</h3>
             <h4 className='text-black font-bold'>14Feb 2025</h4>
