@@ -18,6 +18,10 @@ const ListTask = ({data}) => {
         {
           return <NewTask />
         }
+        if(elem.completed)
+        {
+          return <CompleteTask />
+        }
       })}
       {/* <AcceptTask /> */}
         {/* <div className='flex-shrink-0 h-full w-[300px] p-5 bg-red-300 rounded-xl'>
