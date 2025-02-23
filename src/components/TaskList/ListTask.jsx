@@ -8,6 +8,10 @@ const ListTask = ({data}) => {
   console.log(data)
   return (
     <div id='listtask' className='overflow-x-auto mt-7 h-[55%] w-full py-5 flex justify-start items-center gap-5 flex-nowrap'>
+      {data.tasks.map((elem)=>{
+
+        console.log(elem)
+      })}
       {/* <AcceptTask /> */}
         {/* <div className='flex-shrink-0 h-full w-[300px] p-5 bg-red-300 rounded-xl'>
           <div className='flex justify-between items-center'>
@@ -65,7 +69,7 @@ const ListTask = ({data}) => {
           <h2 className='mt-5 font-semibold text-2xl text-violet-950'>Make A YouTube Video</h2>
           <p className='mt-2 text-sm text-blue-800'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
             Quae enim blanditiis id, perferendis aspernatur voluptatum?</p>
-        </div>
+        {/* </div> */}
         
     </div>
   )
