@@ -12,7 +12,7 @@ const ListTask = ({data}) => {
 
         if(elem.active)
         {
-          <AcceptTask />
+          return <AcceptTask />
         }
       })}
       {/* <AcceptTask /> */}
