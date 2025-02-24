@@ -11,7 +11,7 @@ const CompleteTask = () => {
           <p className='mt-2 text-sm text-blue-800'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
             Quae enim blanditiis id, perferendis aspernatur voluptatum?</p>
 
-            <div className='mt-3'>
+            <div className='mt-4'>
                 <button className='w-full bg-purple-700 rounded-lg text-black py-1 px-2 '>Completed Task</button>
             </div>
         </div>
