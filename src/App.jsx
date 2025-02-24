@@ -20,7 +20,12 @@ import { AuthContext } from './context/AuthProvider'
 
     useEffect(() => {
       const loggedInUser =localStorage.getItem('loggedInUser', ' ')
-      console.log(loggedInUser)
+      // console.log(loggedInUser)
+
+      if(loggedInUser)
+      {
+        console.log("Logged In User Hai")
+      }
     })
 
     // console.log(authData)
