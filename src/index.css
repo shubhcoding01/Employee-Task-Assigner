@@ -6,8 +6,21 @@
   color: #fff;
 
 }
+
+
 body{
-  background-color: #000;
+  /* background-color: #000; */
+  background: linear-gradient(to right, rgb(53, 58, 0), rgb(34, 0, 42));
+  color: transparent;
+  background-clip:border-box;
+  box-shadow: 0 0 60px rgba(255, 0, 0, 0.44);
+  animation: anime 1s infinite alternate;
+}
+@keyframes anime {
+
+  100%{
+    box-shadow: 0 0 60px rgba(0, 0, 255, 0.404);
+  }
 }
 #listtask::-webkit-scrollbar{
   display: none;
