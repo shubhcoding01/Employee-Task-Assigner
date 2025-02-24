@@ -11,7 +11,7 @@ body {
   /* margin: 0; */
   /* padding: 0; */
   /* height: 100vh; Full viewport height */
-  background: linear-gradient(45deg, #440113, #0c2652, #015b2a, #c5c8048c);
+  background: linear-gradient(45deg, #440113, #0c2652, #7d0202, #c5c8048c);
   background-size: 400% 400%;
   animation: glowingBackground 10s ease infinite; /* Animation for the background */
 }
