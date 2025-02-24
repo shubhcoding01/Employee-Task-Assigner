@@ -19,7 +19,7 @@ import { AuthContext } from './context/AuthProvider'
   const authData = useContext(AuthContext);
 
     useEffect(() => {
-      const loggedInUser =localStorage.setItem('loggedInUser', ' ')
+      const loggedInUser =localStorage.getItem('loggedInUser', ' ')
       console.log(loggedInUser)
     })
 
