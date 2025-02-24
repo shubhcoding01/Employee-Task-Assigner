@@ -24,7 +24,7 @@ const ListTask = ({data, idx}) => {
         }
         if(elem.failed)
         {
-          return <FailedTask />
+          return <FailedTask key={idx} />
         }
       })}
       {/* <AcceptTask /> */}
