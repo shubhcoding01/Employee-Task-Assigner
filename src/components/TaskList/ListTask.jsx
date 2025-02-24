@@ -20,7 +20,7 @@ const ListTask = ({data, idx}) => {
         }
         if(elem.completed)
         {
-          return <CompleteTask />
+          return <CompleteTask key={idx} />
         }
         if(elem.failed)
         {
