@@ -12,7 +12,7 @@ const FailedTask = () => {
             Quae enim blanditiis id, perferendis aspernatur voluptatum?</p>
 
             <div className='mt-2'>
-                <button className='w-full'>Failed Task</button>
+                <button className='w-full bg-red-600 rounded-md' >Failed Task</button>
             </div>
         </div>
   )
