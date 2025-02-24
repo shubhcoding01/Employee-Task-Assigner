@@ -12,7 +12,7 @@ const CompleteTask = () => {
             Quae enim blanditiis id, perferendis aspernatur voluptatum?</p>
 
             <div className='mt-4'>
-                <button className='w-full bg-purple-700 rounded-lg text-black py-1 px-2 opacity-50'>Completed Task</button>
+                <button className='w-full bg-purple-700 rounded-lg text-black py-1 px-2 opacity-25'>Completed Task</button>
             </div>
         </div>
   )
