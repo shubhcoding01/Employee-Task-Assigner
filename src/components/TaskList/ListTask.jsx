@@ -4,11 +4,11 @@ import NewTask from './NewTask'
 import CompleteTask from './CompleteTask'
 import FailedTask from './FailedTask'
 
-const ListTask = ({data, idx}) => {
+const ListTask = ({data}) => {
   // console.log(data)
   return (
     <div id='listtask' className='overflow-x-auto mt-7 h-[55%] w-full py-5 flex justify-start items-center gap-5 flex-nowrap'>
-      {data.tasks.map((elem)=>{
+      {data.tasks.map((elem,idx)=>{
 
         if(elem.active)
         {
