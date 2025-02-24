@@ -3,13 +3,33 @@
 @tailwind utilities;
 
 *{
-  color: #fff;
+  color: #000;
 
 }
 
+body {
+  /* margin: 0; */
+  /* padding: 0; */
+  /* height: 100vh; Full viewport height */
+  background: linear-gradient(45deg, #440113, #0c2652, #015b2a, #c5c8048c);
+  background-size: 400% 400%;
+  animation: glowingBackground 10s ease infinite; /* Animation for the background */
+}
 
-body{
-  /* background-color: #000; */
+@keyframes glowingBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* body{
+  background-color: #000;
   background: linear-gradient(to right, rgb(53, 58, 0), rgb(34, 0, 42));
   color: transparent;
   background-clip:border-box;
@@ -21,7 +41,7 @@ body{
   100%{
     box-shadow: 0 0 60px rgba(0, 0, 255, 0.404);
   }
-}
+} */
 #listtask::-webkit-scrollbar{
   display: none;
 }
