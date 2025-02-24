@@ -16,7 +16,7 @@ const ListTask = ({data, idx}) => {
         }
         if(elem.new)
         {
-          return <NewTask />
+          return <NewTask key={idx} />
         }
         if(elem.completed)
         {
