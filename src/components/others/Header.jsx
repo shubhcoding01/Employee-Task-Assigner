@@ -15,6 +15,7 @@ const Header = () => {
     const logoutUser = ()=>
     {
       localStorage.setItem('loggedInUser','')
+      window.location.reload()
     }
 
   return (
