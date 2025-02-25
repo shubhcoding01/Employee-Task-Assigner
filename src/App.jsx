@@ -52,7 +52,7 @@ import { data } from 'autoprefixer'
     // console.log(email,password)
     if(email == 'admin12@mail.com' && password == '123'){
       setUser('admin')
-      localStorage.setItem('loggedInUser',JSON.stringify({role:'admin', data:admin}))
+      localStorage.setItem('loggedInUser',JSON.stringify({role:'admin'}))
       // console.log(user)
       // console.log("This is Admin")
   }
