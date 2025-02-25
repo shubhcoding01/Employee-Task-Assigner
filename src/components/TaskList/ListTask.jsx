@@ -12,19 +12,19 @@ const ListTask = ({data}) => {
 
         if(elem.active)
         {
-          return <AcceptTask key={idx} />
+          return <AcceptTask key={idx} data={elem} />
         }
         if(elem.new)
         {
-          return <NewTask key={idx} />
+          return <NewTask key={idx} data={elem}/>
         }
         if(elem.completed)
         {
-          return <CompleteTask key={idx} />
+          return <CompleteTask key={idx} data={elem} />
         }
         if(elem.failed)
         {
-          return <FailedTask key={idx} />
+          return <FailedTask key={idx} data={elem} />
         }
       })}
       {/* <AcceptTask /> */}
