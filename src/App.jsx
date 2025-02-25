@@ -21,15 +21,14 @@ import { data } from 'autoprefixer'
 
     useEffect(() => {
       const loggedInUser =localStorage.getItem('loggedInUser')
-      // console.log(loggedInUser)
+    
 
       if(loggedInUser)
       {
         const userData = JSON.parse(loggedInUser)
         setUser(userData.role)
         setLoggedInUserData(userData.data)
-        // console.log(userData)
-        // console.log("Logged In User Hai")
+       
       }
     },[])
 
