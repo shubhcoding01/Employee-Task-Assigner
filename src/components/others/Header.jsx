@@ -14,7 +14,7 @@ const Header = () => {
   
     const logoutUser = ()=>
     {
-
+      localStorage.setItem('loggedInUser','')
     }
 
   return (
