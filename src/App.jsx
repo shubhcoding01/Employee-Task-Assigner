@@ -24,7 +24,10 @@ import { AuthContext } from './context/AuthProvider'
 
       if(loggedInUser)
       {
-        console.log("Logged In User Hai")
+        const userData = JSON.parse(loggedInUser)
+        
+        // console.log(userData)
+        // console.log("Logged In User Hai")
       }
     })
 
