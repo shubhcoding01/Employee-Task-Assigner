@@ -31,7 +31,7 @@ import { data } from 'autoprefixer'
         // console.log(userData)
         // console.log("Logged In User Hai")
       }
-    })
+    },[])
 
     // console.log(authData)
 
