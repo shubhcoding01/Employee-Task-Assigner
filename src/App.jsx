@@ -4,6 +4,7 @@ import EmployeeDashboard from './components/Dashboard/EmployeeDashboard'
 import AdminDashboard from './components/Dashboard/AdminDashboard'
 import { getLocalStorage, setLocalStorage } from './utils/localStorage'
 import { AuthContext } from './context/AuthProvider'
+import { data } from 'autoprefixer'
 
  const App = () => {
 
@@ -63,7 +64,7 @@ import { AuthContext } from './context/AuthProvider'
     {
       setUser('employee')
       setLoggedInUserData(employee)
-      localStorage.setItem('loggedInUser',JSON.stringify({role:'employee'}))
+      localStorage.setItem('loggedInUser',JSON.stringify({role:'employee',data:employee}))
     }
     
     // console.log(user)
