@@ -25,7 +25,8 @@ import { AuthContext } from './context/AuthProvider'
       if(loggedInUser)
       {
         const userData = JSON.parse(loggedInUser)
-        
+        setUser(userData.role)
+        setLoggedInUserData(userData.data)
         // console.log(userData)
         // console.log("Logged In User Hai")
       }
