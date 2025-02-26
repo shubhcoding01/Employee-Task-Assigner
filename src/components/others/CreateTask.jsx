@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const CreateTask = () => {
+
+  const [taskTitle, setTaskTitle] = useState('')
+  const [taskDescription, setTaskDescription] = useState('')
+  const [taskDate, setTaskDate] = useState('')
+  const [taskCategory, setTaskCategory] = useState('')
+  const [asignTo, setAsignTo] = useState('')
+
 
   const submitHandler = (e) => {
     e.preventDefault()
