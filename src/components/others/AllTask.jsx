@@ -10,22 +10,22 @@ const AllTask = () => {
   return (
     <div id='allTask' className='p-5 bg-[#1c1c1c] rounded mt-5 overflow-auto h-48'>
         <div className='bg-red-400 mb-2 py-2 px-4 flex justify-between rounded'>
-            <h2>Employee Name</h2>
-            <h3>New Task</h3>
-            <h5>Active Status</h5>
-            <h5>Completed</h5>
-            <h5>Failed</h5>
+            <h2 className='w-1/5 bg-slate-500'>Employee Name</h2>
+            <h3 className='w-1/5 bg-slate-500'>New Task</h3>
+            <h5 className='w-1/5 bg-slate-500'>Active Status</h5>
+            <h5 className='w-1/5 bg-slate-500'>Completed</h5>
+            <h5 className='w-1/5 bg-slate-500'>Failed</h5>
 
         </div>
         
         <div>
         {authData.employees.map(function (elem) {
             return <div className='bg-red-400 mb-2 py-2 px-4 flex justify-between rounded'>
-            <h2>{elem.firstname}</h2>
-            <h3>Task</h3>
-            <h5>Status</h5>
-            <h5>Status</h5>
-            <h5>Failed</h5>
+            <h2 className='w-1/5 bg-slate-500'>{elem.firstname}</h2>
+            <h3 className='w-1/5 bg-slate-500'>Task</h3>
+            <h5 className='w-1/5 bg-slate-500'>Status</h5>
+            <h5 className='w-1/5 bg-slate-500'>Status</h5>
+            <h5 className='w-1/5 bg-slate-500'>Failed</h5>
 
         </div>
         })}
