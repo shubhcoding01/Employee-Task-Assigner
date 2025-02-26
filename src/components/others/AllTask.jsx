@@ -18,6 +18,7 @@ const AllTask = () => {
 
         </div>
         
+        <div>
         {authData.employees.map(function (elem) {
             return <div className='bg-red-400 mb-2 py-2 px-4 flex justify-between rounded'>
             <h2>{elem.firstname}</h2>
@@ -28,6 +29,7 @@ const AllTask = () => {
 
         </div>
         })}
+        </div>
         
         {/* <div className='bg-green-400 mb-2 py-2 px-4 flex justify-between rounded'>
             <h2>Shubham</h2>
