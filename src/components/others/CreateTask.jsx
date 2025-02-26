@@ -2,7 +2,7 @@ import React from 'react'
 
 const CreateTask = () => {
 
-  const submitHandler = () => {
+  const submitHandler = (e) => {
     e.preventDefault()
     console.log('task Submited');
     
