@@ -17,8 +17,8 @@ const employees = [
         "new": true,
         "completed": false,
         "failed": false,
-        "task_title": "Task 1",
-        "task_description": "Description of Task 1",
+        "task_title": "Develop New Feature",
+        "task_description": "Develop a new feature for the application.",
         "task_date": "2025-02-17",
         "category": "Development"
       },
@@ -27,8 +27,8 @@ const employees = [
         "new": false,
         "completed": true,
         "failed": false,
-        "task_title": "Task 2",
-        "task_description": "Description of Task 2",
+        "task_title": "Testing Module 2",
+        "task_description": "Testing the second module of the application.",
         "task_date": "2025-02-15",
         "category": "Testing"
       },
@@ -37,8 +37,8 @@ const employees = [
         "new": false,
         "completed": false,
         "failed": true,
-        "task_title": "Task 3",
-        "task_description": "Description of Task 3",
+        "task_title": "Research for New Tech Stack",
+        "task_description": "Research on integrating new technologies for the stack.",
         "task_date": "2025-02-14",
         "category": "Research"
       }
@@ -61,8 +61,8 @@ const employees = [
         "new": true,
         "completed": false,
         "failed": false,
-        "task_title": "Task 4",
-        "task_description": "Description of Task 4",
+        "task_title": "Documentation Update",
+        "task_description": "Update the documentation for the latest features.",
         "task_date": "2025-02-17",
         "category": "Documentation"
       },
@@ -71,8 +71,8 @@ const employees = [
         "new": false,
         "completed": false,
         "failed": true,
-        "task_title": "Task 5",
-        "task_description": "Description of Task 5",
+        "task_title": "Fix Bug in Development",
+        "task_description": "Fix a critical bug in the development branch.",
         "task_date": "2025-02-16",
         "category": "Development"
       }
@@ -95,8 +95,8 @@ const employees = [
         "new": false,
         "completed": true,
         "failed": false,
-        "task_title": "Task 6",
-        "task_description": "Description of Task 6",
+        "task_title": "Final Research Report",
+        "task_description": "Complete and submit the research report.",
         "task_date": "2025-02-17",
         "category": "Research"
       },
@@ -105,8 +105,8 @@ const employees = [
         "new": true,
         "completed": false,
         "failed": false,
-        "task_title": "Task 7",
-        "task_description": "Description of Task 7",
+        "task_title": "Design New UI Layout",
+        "task_description": "Design a new user interface layout for the app.",
         "task_date": "2025-02-14",
         "category": "Design"
       }
@@ -129,8 +129,8 @@ const employees = [
         "new": true,
         "completed": false,
         "failed": false,
-        "task_title": "Task 8",
-        "task_description": "Description of Task 8",
+        "task_title": "Feature Enhancement",
+        "task_description": "Enhance the existing feature based on client feedback.",
         "task_date": "2025-02-17",
         "category": "Development"
       },
@@ -139,8 +139,8 @@ const employees = [
         "new": true,
         "completed": false,
         "failed": false,
-        "task_title": "Task 9",
-        "task_description": "Description of Task 9",
+        "task_title": "Quality Assurance Testing",
+        "task_description": "Run quality assurance testing on the new build.",
         "task_date": "2025-02-16",
         "category": "Testing"
       }
@@ -163,8 +163,8 @@ const employees = [
         "new": true,
         "completed": false,
         "failed": false,
-        "task_title": "Task 10",
-        "task_description": "Description of Task 10",
+        "task_title": "Design New Logo",
+        "task_description": "Design a new logo for the company.",
         "task_date": "2025-02-15",
         "category": "Design"
       },
@@ -173,8 +173,8 @@ const employees = [
         "new": false,
         "completed": true,
         "failed": false,
-        "task_title": "Task 11",
-        "task_description": "Description of Task 11",
+        "task_title": "Complete Research Paper",
+        "task_description": "Finalize and submit the research paper.",
         "task_date": "2025-02-17",
         "category": "Research"
       },
@@ -183,14 +183,15 @@ const employees = [
         "new": false,
         "completed": false,
         "failed": true,
-        "task_title": "Task 12",
-        "task_description": "Description of Task 12",
+        "task_title": "Revise Documentation",
+        "task_description": "Revise the outdated documentation for the project.",
         "task_date": "2025-02-14",
         "category": "Documentation"
       }
     ]
   }
 ];
+
 
   
   const admin = [
