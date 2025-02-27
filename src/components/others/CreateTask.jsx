@@ -26,6 +26,11 @@ const CreateTask = () => {
       }
       
     })
+    setTaskTitle('')
+    setTaskDate('')
+    setAsignTo('')
+    setTaskCategory('')
+    setTaskDescription('')
 
     
     // console.log(task)
