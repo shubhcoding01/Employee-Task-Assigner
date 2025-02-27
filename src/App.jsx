@@ -50,12 +50,19 @@ import { data } from 'autoprefixer'
 
   const handleLogin = (email,password) => {
     // console.log(email,password)
+    // const {employees, admin} = getLocalStorage();
+    // const adminUser = admin.find(user => user.email === email && user.password === password)
+
     if(email == 'admin12@mail.com' && password == '123'){
       setUser('admin')
       localStorage.setItem('loggedInUser',JSON.stringify({role:'admin'}))
       // console.log(user)
       // console.log("This is Admin")
   }
+  // if(adminUser){
+  //   localStorage.setItem('loggedInUser',JSON.stringify(adminUser))
+  //   return;
+  // }
   else if(userData )
   {
     const employee = userData.find((e) => email == e.email && e.password == password)
