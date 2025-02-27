@@ -18,7 +18,7 @@ const CreateTask = () => {
     e.preventDefault()
     // console.log(taskTitle, taskDate, asignTo, taskCategory, taskDescription);
 
-    setNewTask({taskTitle,taskDate,asignTo,taskCategory,taskDescription,active:false,newTask:true,failed:true,completed:false})
+    setNewTask({taskTitle,taskDate,asignTo,taskCategory,taskDescription,active:false,newTask:true,failed:false,completed:false})
     const data = userData
     console.log(data);
     
@@ -29,7 +29,7 @@ const CreateTask = () => {
     data.forEach(function(elem){
       if(asignTo == elem.firstname){
         elem.tasks.push(newTask)
-        elem.taskCounts.newTask = elem.taskCounts.newTask + 1
+        elem.task_numbers.newTask = elem.task_numbers.newTask+1
         // console.log(elem)
       }
       

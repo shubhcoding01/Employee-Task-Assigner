@@ -23,7 +23,7 @@ const AllTask = () => {
         {userData.map(function (elem, idx) {
             return <div key={idx} className='border-2 border-purple-900 mb-2 py-2 px-4 flex justify-between rounded'>
             <h2 className='w-1/5 text-white'>{elem.firstname}</h2>
-            <h3 className='w-1/5 text-blue-500'>{elem.task_numbers.new}</h3>
+            <h3 className='w-1/5 text-blue-500'>{elem.task_numbers.newTask}</h3>
             <h5 className='w-1/5 text-yellow-500'>{elem.task_numbers.active}</h5>
             <h5 className='w-1/5 text-green-500'>{elem.task_numbers.completed}</h5>
             <h5 className='w-1/5 text-pink-500'>{elem.task_numbers.failed}</h5>

@@ -7,7 +7,7 @@ const employees = [
     "firstname": "Amit",
     "task_numbers": {
       "active": 2,
-      "new": 1,
+      "newTask": 1,
       "completed": 1,
       "failed": 1
     },
@@ -51,7 +51,7 @@ const employees = [
     "firstname": "Priya",
     "task_numbers": {
       "active": 2,
-      "new": 1,
+      "newTask": 1,
       "completed": 0,
       "failed": 1
     },
@@ -85,7 +85,7 @@ const employees = [
     "firstname": "Ravi",
     "task_numbers": {
       "active": 2,
-      "new": 1,
+      "newTask": 1,
       "completed": 1,
       "failed": 0
     },
@@ -119,7 +119,7 @@ const employees = [
     "firstname": "Neha",
     "task_numbers": {
       "active": 2,
-      "new": 2,
+      "newTask": 2,
       "completed": 0,
       "failed": 0
     },
@@ -153,7 +153,7 @@ const employees = [
     "firstname": "Sanya",
     "task_numbers": {
       "active": 1,
-      "new": 1,
+      "newTask": 1,
       "completed": 1,
       "failed": 1
     },

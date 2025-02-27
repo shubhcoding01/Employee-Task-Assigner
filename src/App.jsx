@@ -17,7 +17,7 @@ import { data } from 'autoprefixer'
 
   const [user, setUser] = useState(null)
   const [loggedInUserData, setLoggedInUserData] = useState(null)
-  const authData = useContext(AuthContext);
+  const [userData,SetUserData] = useContext(AuthContext);
 
     useEffect(() => {
       const loggedInUser =localStorage.getItem('loggedInUser')
@@ -56,9 +56,9 @@ import { data } from 'autoprefixer'
       // console.log(user)
       // console.log("This is Admin")
   }
-  else if(authData )
+  else if(userData )
   {
-    const employee = authData.employees.find((e) => email == e.email && e.password == password)
+    const employee = userData.find((e) => email == e.email && e.password == password)
     if(employee)
     {
       setUser('employee')
