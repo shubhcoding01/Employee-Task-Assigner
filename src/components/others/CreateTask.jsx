@@ -8,10 +8,13 @@ const CreateTask = () => {
   const [taskCategory, setTaskCategory] = useState('')
   const [asignTo, setAsignTo] = useState('')
 
+  const [task, setTask] = useState({})
 
   const submitHandler = (e) => {
     e.preventDefault()
-    console.log(taskTitle, taskDate, asignTo, taskCategory, taskDescription);
+    // console.log(taskTitle, taskDate, asignTo, taskCategory, taskDescription);
+
+    setTask({taskTitle,taskDate,asignTo,taskCategory,taskDescription,active:false,newTask:true,failed:true,completed:false})
     
   }
 
