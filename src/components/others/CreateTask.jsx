@@ -11,7 +11,7 @@ const CreateTask = () => {
 
   const submitHandler = (e) => {
     e.preventDefault()
-    console.log('task Submited');
+    console.log(taskTitle, taskDate, asignTo, taskCategory, taskDescription);
     
   }
 
