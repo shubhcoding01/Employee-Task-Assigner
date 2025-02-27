@@ -14,7 +14,7 @@ const employees = [
     "tasks": [
       {
         "active": true,
-        "new": true,
+        "newTask": true,
         "completed": false,
         "failed": false,
         "task_title": "Develop New Feature",
@@ -24,7 +24,7 @@ const employees = [
       },
       {
         "active": false,
-        "new": false,
+        "newTask": false,
         "completed": true,
         "failed": false,
         "task_title": "Testing Module 2",
@@ -34,7 +34,7 @@ const employees = [
       },
       {
         "active": true,
-        "new": false,
+        "newTask": false,
         "completed": false,
         "failed": true,
         "task_title": "Research for New Tech Stack",
@@ -58,7 +58,7 @@ const employees = [
     "tasks": [
       {
         "active": true,
-        "new": true,
+        "newTask": true,
         "completed": false,
         "failed": false,
         "task_title": "Documentation Update",
@@ -68,7 +68,7 @@ const employees = [
       },
       {
         "active": true,
-        "new": false,
+        "newTask": false,
         "completed": false,
         "failed": true,
         "task_title": "Fix Bug in Development",
@@ -92,7 +92,7 @@ const employees = [
     "tasks": [
       {
         "active": true,
-        "new": false,
+        "newTask": false,
         "completed": true,
         "failed": false,
         "task_title": "Final Research Report",
@@ -102,7 +102,7 @@ const employees = [
       },
       {
         "active": false,
-        "new": true,
+        "newTask": true,
         "completed": false,
         "failed": false,
         "task_title": "Design New UI Layout",
@@ -126,7 +126,7 @@ const employees = [
     "tasks": [
       {
         "active": true,
-        "new": true,
+        "newTask": true,
         "completed": false,
         "failed": false,
         "task_title": "Feature Enhancement",
@@ -136,7 +136,7 @@ const employees = [
       },
       {
         "active": true,
-        "new": true,
+        "newTask": true,
         "completed": false,
         "failed": false,
         "task_title": "Quality Assurance Testing",
@@ -160,7 +160,7 @@ const employees = [
     "tasks": [
       {
         "active": false,
-        "new": true,
+        "newTask": true,
         "completed": false,
         "failed": false,
         "task_title": "Design New Logo",
@@ -170,7 +170,7 @@ const employees = [
       },
       {
         "active": true,
-        "new": false,
+        "newTask": false,
         "completed": true,
         "failed": false,
         "task_title": "Complete Research Paper",
@@ -180,7 +180,7 @@ const employees = [
       },
       {
         "active": false,
-        "new": false,
+        "newTask": false,
         "completed": false,
         "failed": true,
         "task_title": "Revise Documentation",

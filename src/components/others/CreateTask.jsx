@@ -18,15 +18,25 @@ const CreateTask = () => {
     e.preventDefault()
     // console.log(taskTitle, taskDate, asignTo, taskCategory, taskDescription);
 
-    setNewTask({taskTitle,taskDate,asignTo,taskCategory,taskDescription,active:false,newTask:true,failed:false,completed:false})
+    setNewTask({
+      taskTitle,
+      taskDate,
+      asignTo,
+      taskCategory,
+      taskDescription,
+      active:false,
+      newTask:true,
+      failed:false,
+      completed:false
+    })
     const data = userData
-    console.log(data);
+
     
 
     // const data = JSON.parse(localStorage.getItem('employees'))
     // console.log(data);
 
-    data.forEach(function(elem){
+    data.forEach(function (elem){
       if(asignTo == elem.firstname){
         elem.tasks.push(newTask)
         elem.task_numbers.newTask = elem.task_numbers.newTask+1
@@ -35,6 +45,7 @@ const CreateTask = () => {
       
     })
     setUserData(data)
+    console.log(data);
     // localStorage.setItem('employees', JSON.stringify(data))
 
     setTaskTitle('')
