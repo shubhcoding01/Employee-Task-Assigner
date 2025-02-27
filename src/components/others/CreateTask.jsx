@@ -15,6 +15,9 @@ const CreateTask = () => {
     // console.log(taskTitle, taskDate, asignTo, taskCategory, taskDescription);
 
     setTask({taskTitle,taskDate,asignTo,taskCategory,taskDescription,active:false,newTask:true,failed:true,completed:false})
+    const data = JSON.parse(localStorage.getItem('employees'))
+    console.log(data);
+    
     // console.log(task)
   }
 
