@@ -5,7 +5,7 @@ const AllTask = () => {
 
     const [userData, setUserData] = useContext(AuthContext)
     // const authData = useContext(AuthContext)
-    // console.log(authData.employees);
+    console.log(authData.employees);
     
 
   return (
