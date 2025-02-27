@@ -11,7 +11,7 @@ const FailedTask = ({data}) => {
           <p className='mt-2 text-sm text-blue-800'>{data.task_description}</p>
 
             <div className='mt-2'>
-                <button className='w-full bg-red-600 rounded-md' >Failed Task</button>
+                <button className='w-full bg-red-400 rounded-lg hover:bg-red-800 hover:scale-110 transition-all duration-300' >Failed Task</button>
             </div>
         </div>
   )
