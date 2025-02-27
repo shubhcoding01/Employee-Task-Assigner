@@ -16,10 +16,13 @@ const CreateTask = () => {
 
     setTask({taskTitle,taskDate,asignTo,taskCategory,taskDescription,active:false,newTask:true,failed:true,completed:false})
     const data = JSON.parse(localStorage.getItem('employees'))
-    console.log(data);
+    // console.log(data);
 
     data.forEach(function(elem){
-      console.log(elem.firstname)
+      if(asignTo == elem.firstname){
+        console.log(elem)
+      }
+      
     })
 
     
