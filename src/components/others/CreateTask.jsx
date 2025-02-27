@@ -8,18 +8,20 @@ const CreateTask = () => {
   const [taskCategory, setTaskCategory] = useState('')
   const [asignTo, setAsignTo] = useState('')
 
-  const [task, setTask] = useState({})
+  const [newTask, setNewTask] = useState({})
 
   const submitHandler = (e) => {
     e.preventDefault()
     // console.log(taskTitle, taskDate, asignTo, taskCategory, taskDescription);
 
-    setTask({taskTitle,taskDate,asignTo,taskCategory,taskDescription,active:false,newTask:true,failed:true,completed:false})
+    setNewTask({taskTitle,taskDate,asignTo,taskCategory,taskDescription,active:false,newTask:true,failed:true,completed:false})
     const data = JSON.parse(localStorage.getItem('employees'))
     // console.log(data);
 
     data.forEach(function(elem){
       if(asignTo == elem.firstname){
+        elem.tasks.push(newTask)
+        
         console.log(elem)
       }
       
