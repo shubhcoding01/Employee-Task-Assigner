@@ -19,7 +19,7 @@ const CreateTask = () => {
     // console.log(taskTitle, taskDate, asignTo, taskCategory, taskDescription);
 
     setNewTask({taskTitle,taskDate,asignTo,taskCategory,taskDescription,active:false,newTask:true,failed:true,completed:false})
-    const data = userData.employees
+    const data = userData
     console.log(data);
     
 
@@ -34,7 +34,7 @@ const CreateTask = () => {
       }
       
     })
-
+    setUserData(data)
     // localStorage.setItem('employees', JSON.stringify(data))
 
     setTaskTitle('')
