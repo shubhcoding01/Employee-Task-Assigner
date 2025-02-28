@@ -1,34 +1,47 @@
-#  Employee Task Assigner
+# Employee Task Assigner
 
-This template provides a minimal setup to get React working in Vite with Hot Module Replacement (HMR) and some ESLint rules.
+Since its inception, **Employee Task Assigner** has been designed to help admins efficiently assign tasks to their employees. The application allows for an easy and streamlined approach to task management, ensuring that the right tasks are assigned to the right people with clear deadlines and priorities. The goal is to increase productivity by simplifying task assignments and providing a transparent workflow for both admins and employees.
 
-### Project Overview
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-This is a project for an **Employee Task Assigner** where an admin can:
+## Project Overview
+**Employee Task Assigner** is a web application that allows admins to assign tasks to employees, set deadlines, and track task completion. With a user-friendly interface, admins can easily manage tasks, while employees receive clear instructions on what is expected of them. The application aims to enhance team collaboration and streamline task management within an organization.
 
-- Assign new tasks to employees.
-- Track the completion status of tasks assigned to employees.
+## Features
+- **Task Assignment**: Admins can assign tasks to employees with due dates, descriptions, and priorities.
+- **Task Tracking**: Employees can view their assigned tasks, mark them as complete, and add comments.
+- **User Roles**: Admins and employees have distinct roles with different permissions.
+- **Task Management**: Admins can edit, delete, and track the status of tasks.
+- **Notifications**: Employees will receive notifications when a task is assigned or updated.
 
-It is built using **React** and **Vite** to provide a fast and efficient development experience.
+## Tech Stack
+- **Frontend**: React, CSS, HTML
+- **State Management**: React Context API, Redux (optional)
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT (JSON Web Tokens)
+- **Deployment**: Heroku (for deployment)
 
-### Features
+## Installation
 
-- Admin can create and assign tasks to employees.
-- Admin can view the task completion status and ensure timely delivery.
-- Real-time updates with Hot Module Replacement (HMR).
+### Prerequisites
+Before you begin, ensure you have installed the following:
 
-### Plugins Used
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh.
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh.
+- Node.js (v14.x or higher)
+- npm (v6.x or higher)
 
 ### Setup
 
-To get started with this project, follow these steps:
+Follow these steps to set up the project locally:
 
-1. Clone the repository:
-
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/shubhcoding01/Employee-Task-Assigner.git
+   git clone https://github.com/your-username/employee-task-assigner.git
