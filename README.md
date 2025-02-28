@@ -1,4 +1,4 @@
-# React + Vite Employee Task Assigner
+#  Employee Task Assigner
 
 This template provides a minimal setup to get React working in Vite with Hot Module Replacement (HMR) and some ESLint rules.
 
